@@ -2,7 +2,7 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "declaration": false,
-    "outDir": "../../dist/apps/graphql-api"
+    "outDir": "../../dist/apps/user"
   },
   "include": [
     "src/**/*"
