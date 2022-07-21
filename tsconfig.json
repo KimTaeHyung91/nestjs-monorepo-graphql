@@ -11,20 +11,6 @@
     "outDir": "./dist",
     "baseUrl": "./",
     "incremental": true,
-    "skipLibCheck": true,
-    "paths": {
-      "@app/crawler": [
-        "libs/crawler/src"
-      ],
-      "@app/crawler/*": [
-        "libs/crawler/src/*"
-      ],
-      "@app/cache": [
-        "libs/cache/src"
-      ],
-      "@app/cache/*": [
-        "libs/cache/src/*"
-      ],
-    }
+    "skipLibCheck": true
   }
 }

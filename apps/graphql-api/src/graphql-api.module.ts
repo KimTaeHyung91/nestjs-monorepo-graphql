@@ -31,7 +31,7 @@ import { initializeTransactionalContext } from 'typeorm-transactional-cls-hooked
   ],
   providers: [UserService, UserRepository, UserQuery, UserMutation],
 })
-export class UserModule {
+export class GraphqlApiModule {
   constructor() {
     initializeTransactionalContext();
   }

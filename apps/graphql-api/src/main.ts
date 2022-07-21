@@ -1,9 +1,9 @@
 import { NestFactory } from '@nestjs/core';
-import { UserModule } from './user.module';
+import { GraphqlApiModule } from './graphql-api.module';
 import { ValidationPipe } from '@nestjs/common';
 
 async function bootstrap() {
-  const app = await NestFactory.create(UserModule);
+  const app = await NestFactory.create(GraphqlApiModule);
   app.useGlobalPipes(
     new ValidationPipe({
       transform: true,

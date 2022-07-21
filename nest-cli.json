@@ -16,13 +16,13 @@
         "tsConfigPath": "apps/server-bznav/tsconfig.app.json"
       }
     },
-    "user": {
+    "graphql-api": {
       "type": "application",
-      "root": "apps/user",
+      "root": "apps/graphql-api",
       "entryFile": "main",
-      "sourceRoot": "apps/user/src",
+      "sourceRoot": "apps/graphql-api/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/user/tsconfig.app.json"
+        "tsConfigPath": "apps/graphql-api/tsconfig.app.json"
       }
     }
   }
